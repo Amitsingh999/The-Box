@@ -1,0 +1,49 @@
+.stat-card {
+  border-left: 7px solid #f97316;
+  margin-left: 1rem;
+}
+
+.experience .card-image-one {
+  top: 0;
+  right: 0;
+  transform: translate(28%, -28%);
+}
+
+.card-image-two {
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+
+.experience .card-image-three {
+  top: 0;
+  right: 0;
+  transform: translate(21%, -21%);
+}
+
+.experience .card-image-four {
+  bottom: 0;
+  right: 0;
+  transform: translate(50%, 50%);
+}
+
+@media (min-width: 992px) {
+    .ms-lg-300 {
+        margin-left: 300px !important;
+        margin-right: -25px;
+    }
+}
+
+@media (max-width: 991px) {
+    .experience .card figure {
+        position: relative !important;
+        top: 0 !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        margin-bottom: 15px;
+    }
+    .experience .card {
+    max-width: 100%;
+    margin-top: 30px;
+  }
+}
